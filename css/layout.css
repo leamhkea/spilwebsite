@@ -1,0 +1,57 @@
+.h1 {
+  font-size: 160%;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(89, 101, 77);
+  margin-top: 5%;
+}
+.pitch {
+  margin: 5% 10%;
+}
+.h2 {
+  color: rgb(89, 101, 77);
+  font-size: 110%;
+  padding-top: 1%;
+}
+.survey {
+  padding-top: 7%;
+}
+.spilmain {
+  margin: 7%;
+  margin-top: 3%;
+}
+.h2teknik {
+  color: rgb(89, 101, 77);
+  font-size: 110%;
+  padding-bottom: 1%;
+}
+.teknikul {
+  padding-bottom: 3%;
+}
+#grafiktabel {
+  width: 125%;
+}
+#grafikskitsespil {
+  width: 60%;
+}
+#grafikkawaii {
+  width: 60%;
+}
+#grafikskitse {
+  width: 160%;
+}
+#assetspilel {
+  width: 10%;
+}
+#assetuiel {
+  width: 25%;
+}
+#assetknapper {
+  width: 40%;
+}
+#teknikspil {
+  width: 250%;
+}
+#teknikdiagram {
+  width: 250%;
+}

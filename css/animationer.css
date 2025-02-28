@@ -1,0 +1,96 @@
+/* falde animation */
+.fald {
+  animation: fald 2s infinite linear;
+}
+
+@keyframes fald {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 1000%;
+  }
+}
+
+/* forsvind animation */
+.forsvind {
+  animation: forsvind 2s 1 both;
+}
+
+@keyframes forsvind {
+  from {
+    opacity: 1;
+    scale: 1;
+  }
+  to {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+/************* ANDRE CLASSER *************/
+
+.frys {
+  animation-play-state: paused;
+}
+
+.pos1 {
+  top: -30%;
+  left: 65%;
+}
+.pos2 {
+  top: -40%;
+  left: 35%;
+}
+.pos3 {
+  top: -50%;
+  left: 59%;
+}
+.pos4 {
+  top: -35%;
+  left: 44%;
+}
+.pos5 {
+  top: -45%;
+  left: 55%;
+}
+.pos6 {
+  top: -55%;
+  left: 40%;
+}
+
+.delay1 {
+  animation-delay: 0s;
+}
+.delay2 {
+  animation-delay: 2s;
+}
+.delay3 {
+  animation-delay: 4s;
+}
+
+.speed1 {
+  animation-delay: 0s;
+}
+.speed2 {
+  animation-delay: 1s;
+}
+.speed3 {
+  animation-delay: 2s;
+}
+
+.vandtimer {
+  animation-name: vandtimer_kf;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes vandtimer_kf {
+  0% {
+    clip-path: inset(45% 0 0 0);
+  }
+  100% {
+    clip-path: inset(100% 0 0 0);
+  }
+}
