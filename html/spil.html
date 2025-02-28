@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Forside</title>
+    <link rel="stylesheet" href="../css/generel.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/spil.css" />
+    <link rel="stylesheet" href="../css/animationer.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Forside</a></li>
+          <li><a href="spil.html">Spil</a></li>
+          <li><a href="grafik.html">Grafik</a></li>
+          <li><a href="assets.html">Assets</a></li>
+          <li><a href="teknik.html">Teknik</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="spilmain">
+      <main class="spilmain">
+        <!-- <div class="h1"><h1>Spil</h1></div> -->
+        <div id="screen">
+          <div id="spil">
+            <div id="spil_baggrund"></div>
+            <div id="elementer">
+              <div id="vand1_container">
+                <div id="vand1_sprite"></div>
+              </div>
+              <div id="vand2_container">
+                <div id="vand2_sprite"></div>
+              </div>
+              <div id="vand3_container">
+                <div id="vand3_sprite"></div>
+              </div>
+              <div id="ild1_container">
+                <div id="ild1_sprite"></div>
+              </div>
+              <div id="ild2_container">
+                <div id="ild2_sprite"></div>
+              </div>
+              <div id="ild3_container">
+                <div id="ild3_sprite"></div>
+              </div>
+            </div>
+            <div id="game_ui">
+              <div id="liv">
+                <div id="live"></div>
+              </div>
+              <div id="point">
+                <div id="points"></div>
+              </div>
+              <div id="time_container">
+                <div id="kande"></div>
+                <div id="vand"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="start">
+            <div id="start_knap"></div>
+          </div>
+          <div id="lyddd">
+            <audio id="lydvand" src="../lyde/lydvand.mp3"></audio>
+            <audio id="lydild" src="../lyde/lydild.mp3"></audio>
+            <audio id="broadway" src="../lyde/broadway.mp3"></audio>
+            <audio id="vino" src="../lyde/vino.mp3"></audio>
+            <div id="mute_btn"></div>
+          </div>
+          <div id="game_over">
+            <div id="replaygo"></div>
+          </div>
+          <div id="success">
+            <div id="replaysu"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <p>&#169; Lea Hejlskov</p>
+    </footer>
+    <script src="../js/spil.js"></script>
+  </body>
+</html>
